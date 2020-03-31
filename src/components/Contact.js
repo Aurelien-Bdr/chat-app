@@ -23,6 +23,7 @@ const Contact = (props) => {
 Contact.propTypes = {
     name: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
-    online: PropTypes.string.isRequired,
+    online: PropTypes.bool.isRequired,
 };
+
 export default Contact;
